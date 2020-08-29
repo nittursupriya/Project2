@@ -1,3 +1,5 @@
+Description: >
+  Supriya Udacity Udagram Project
 Parameters:
   EnvironmentName:
     Description: An environment name that will be prefixed to resource names
@@ -46,3 +48,4 @@ Resources:
     Properties:
       InternetGatewayId: !Ref InternetGateway
       VpcId: !Ref VPC
+  Public Subnet:
